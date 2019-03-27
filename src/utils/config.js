@@ -1,0 +1,25 @@
+export default {
+  // baseURL: 'localhost:8000',
+  openPages: ['/login'],
+  apiPrefix: '/api',
+  api: {
+    login: '/auth/login',
+    dicList: '/basicApp/dic/list',
+    zoneList: 'basicApp/zone/List',
+    baseInfoList: '/ehr/pageEhrInfo',
+    addBaseInfo: '/ehr/addEhr',
+    getBaseInfo: '/ehr/qryEhrByEhrID',
+    delBaseInfo: '/ehr/deleteEhr',
+    updateBaseInfo: '/ehr/updateEhr',
+    hypertensionBaseList: '/hypertension/pageHypertension',
+    hypertensionHList: '/hypertension/pageHyperVisit',
+    hypertensionAdd: '/hypertension/addHyperVisit',
+    hypertensionUpdate: '/hypertension/updateHyperVisit',
+    hypertensionDetail: '/hypertension/qryHyperVisitByVisitId',
+    hypertensionDel: '/hypertension/deleteVisit',
+  },
+
+  baseURL: 'http://10.192.3.6:18186',
+  YQL: ['http://www.sinosoft.com.cn'],
+  CORS: ['http://localhost:8000'],
+};
